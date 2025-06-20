@@ -153,6 +153,8 @@ elif page == "Dashboard Prediksi":
         }
 
         input_df = pd.DataFrame(input_data)
+        input_df = input_df[X_train.columns]  # Urutkan kolom sesuai X_train
+
 
         prediction_encoded = model.predict(input_df)[0]
         prediction_proba = model.predict_proba(input_df)
