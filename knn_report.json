@@ -1,0 +1,60 @@
+{
+    "model_name": "Knn",
+    "best_cv_accuracy": 0.2122072072072072,
+    "final_test_accuracy": 0.21837837837837837,
+    "best_parameters": {
+        "classifier__n_neighbors": 3,
+        "classifier__weights": "distance"
+    },
+    "classification_report": {
+        "Arthritis": {
+            "precision": 0.22116402116402117,
+            "recall": 0.22448979591836735,
+            "f1-score": 0.22281449893390193,
+            "support": 1862.0
+        },
+        "Asthma": {
+            "precision": 0.22180652057723144,
+            "recall": 0.22591181273816005,
+            "f1-score": 0.22384034519956852,
+            "support": 1837.0
+        },
+        "Cancer": {
+            "precision": 0.2,
+            "recall": 0.1978319783197832,
+            "f1-score": 0.1989100817438692,
+            "support": 1845.0
+        },
+        "Diabetes": {
+            "precision": 0.22033898305084745,
+            "recall": 0.20956475013433637,
+            "f1-score": 0.21481685486091986,
+            "support": 1861.0
+        },
+        "Hypertension": {
+            "precision": 0.22026666666666667,
+            "recall": 0.22336398053001622,
+            "f1-score": 0.22180451127819548,
+            "support": 1849.0
+        },
+        "Obesity": {
+            "precision": 0.22632423756019263,
+            "recall": 0.22914409534127844,
+            "f1-score": 0.22772543741588158,
+            "support": 1846.0
+        },
+        "accuracy": 0.21837837837837837,
+        "macro avg": {
+            "precision": 0.21831673816982655,
+            "recall": 0.21838440216365695,
+            "f1-score": 0.21831862157205614,
+            "support": 11100.0
+        },
+        "weighted avg": {
+            "precision": 0.2183229227358731,
+            "recall": 0.21837837837837837,
+            "f1-score": 0.21831858357506703,
+            "support": 11100.0
+        }
+    }
+}
